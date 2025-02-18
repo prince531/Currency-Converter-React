@@ -1,0 +1,84 @@
+.CurrencyConverter{
+  background-color:rgba(5, 240, 248, 0.425);
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid aqua;
+  border-radius: 5px;  
+  min-width: 70vb;
+}
+.CurrencyConverter h2{
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 5px;
+  background-color: rgba(5, 240, 248, 0.625);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.CurrencyConverter label{
+  display: block;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+.CurrencyConverter input[type="number"],
+.CurrencyConverter select{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: rgba(127, 255, 212, 0.438);
+  border: 1px solid aquamarine;
+}
+.CurrencyConverter button{
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #000;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: larger;
+}
+.CurrencyConverter button:hover{
+  background-color: #3e8e41;
+}
+.CurrencyConverter p{
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  
+}
+.footer p{
+  color: #ddd;
+  text-align: center;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+.footer a{
+  color: #ddd;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+.header h2{
+  position: fixed;
+  text-align: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-size: 38px;
+}
